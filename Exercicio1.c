@@ -1,15 +1,4 @@
-// Exercício 1:
-
-// Crie um programa em C que leia três valores reais representando os lados de um triângulo.
-// Primeiro, o programa deve verificar se esses lados podem efetivamente formar um triângulo (a
-// soma de dois lados deve ser sempre maior que o terceiro). Caso formem, classifique-o e exiba
-// uma mensagem na tela indicando se ele é:
-
-// • Equilátero: Todos os três lados são iguais.
-// • Isósceles: Dois lados são iguais e um é diferente.
-// • Escaleno: Todos os três lados são diferentes.
-
-// Se os lados informados não puderem formar um triângulo, o programa deve exibir uma mensagem de erro. 
+// Exercício 1: Verificação do Triangulo 
 
 //&& (E lógico): retorna verdadeiro apenas quando as duas condições são verdadeiras.
 //|| (OU lógico): retorna verdadeiro quando pelo menos uma das condições é verdadeira.
