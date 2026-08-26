@@ -62,6 +62,26 @@
 
 #include <stdio.h>
 
+int calcula_pa(int P,int R,int N){
+    int termo_atual = P;
+
+    for(int i = 1; i<=N; i++){
+        printf("%d\n", termo_atual);
+        termo_atual = termo_atual + R;
+    }
+     return 0;
+}
+
+int calcula_pg(int P,int R,int N){
+    int termo_atual = P;
+
+    for(int i = 1; i<=N; i++){
+        printf("%d\n", termo_atual);
+        termo_atual = termo_atual * R;
+    }
+    return 0;
+}
+
 int main(){
 
     int P,R,N,termo_atual;
@@ -80,14 +100,21 @@ int main(){
 
     if (N <= 0){
         printf("Numero negativo nao eh aceito!\n");
+        return -1;
     }
-
-    termo_atual = P;
-
-    for(int i = 1; i<=N; i++){
-        printf("%d ", termo_atual);
-        termo_atual = termo_atual + R;
-    }
-
+    else{
+        printf("=========== informacoes de PA/PG =============\n");
+        calcula_pa(P,R,N);
+        printf("==============================================\n");
+        calcula_pg(P,R,N);
+        printf("==============================================\n");
+        }
+    
     return 0;
-}
+
+    }
+
+// ==========================================================================
+
+
+
