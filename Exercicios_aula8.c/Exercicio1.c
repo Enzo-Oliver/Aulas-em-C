@@ -10,8 +10,6 @@ int main(){
     int ttlpss = 0;
     int m;
 
-
-
     for (int i = 0; i < 10; i++){
         printf("Digite a quantidade de passos dados: ");
         scanf("%d", &ttlpss);

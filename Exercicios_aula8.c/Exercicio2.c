@@ -12,23 +12,22 @@ int main(){
     int tentativas = 0;
     int senha = 2026;
 
+for (int i = 0; i < 3; i++){
+
     printf("Digite sua senha: ");
     scanf("%d", &senha);
 
-for (int i = 0; i < 5; i++){
-    if (senha = senha){
-    printf("Bem vindo ao sistema!");
-    }
-    else if (senha != senha){
-        printf("Senha invalida! tente novamente!");
-    }
-    else{
-        printf("")
-    }
+        if (senha == 2026){
+        printf("Bem vindo ao sistema!");
+        break;
+        }
+        else {
+        printf("Senha invalida, tente novamente!\n");
+        }
+        
+    if (i == 2){
+        printf("Conta bloqueada!");
+        }
 }
-
-
-
-
     return 0;
 }
